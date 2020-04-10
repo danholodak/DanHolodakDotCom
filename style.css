@@ -1,0 +1,20 @@
+tbody {
+    vertical-align: top;
+}
+
+td {
+    padding: 10px;
+}
+
+body {
+    background-color: #F8FFFF;
+}
+
+.homePageCliparts {
+    width: 300px;
+    float:left;
+}
+
+.homePageCliparts img {
+    width: 100%;
+}
