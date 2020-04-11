@@ -10,6 +10,29 @@ body {
     background-color: #F8FFFF;
 }
 
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px;
+    height: 50px;
+    text-align: center;
+}
+
+footer img {
+    height: 100%;
+    margin: auto;
+}
+
 .homePageCliparts {
     width: 300px;
     float:left;
@@ -19,17 +42,20 @@ body {
     width: 100%;
 }
 
-footer {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    padding-bottom: 20px;
-}
-
 .film figure {
     width: 50%;
 }
 
 .film video {
     width:100%;
+}
+
+.sound figure {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.sound video{
+    width: 100%;
 }
