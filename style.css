@@ -44,6 +44,9 @@ footer img {
 
 .film figure {
     width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 20 0 20 0;
 }
 
 .film video {
