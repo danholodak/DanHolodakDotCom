@@ -25,3 +25,11 @@ footer {
     bottom: 0;
     padding-bottom: 20px;
 }
+
+.film figure {
+    width: 50%;
+}
+
+.film video {
+    width:100%;
+}
