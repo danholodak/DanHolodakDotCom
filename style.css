@@ -1,7 +1,6 @@
 tbody {
     vertical-align: top;
 }
-
 td {
     padding: 10px;
 }
@@ -31,6 +30,11 @@ footer {
 footer img {
     height: 100%;
     margin: auto;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .homePageCliparts {
