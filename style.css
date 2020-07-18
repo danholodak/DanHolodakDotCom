@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
 tbody {
     vertical-align: top;
 }
@@ -31,10 +33,31 @@ footer img {
     height: 100%;
     margin: auto;
 }
+
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+.column {
+    padding: 10px;
+}
+
+.column-2 {
+    flex: calc(50% - 20px);
+}
+
+.column-30 {
+    flex: 30%;
+}
+
+.column-70 {
+    flex: 70%;
 }
 
 .homePageCliparts {
@@ -64,4 +87,32 @@ footer img {
 
 .sound video{
     width: 100%;
+}
+
+.cv .container {
+    width: 80%;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.cv {
+    font-family: 'Rubik';
+}
+
+#resume-left {
+    background-color: #282c34BF;
+    color:#56B6C2;
+}
+
+#resume-right {
+    background-color: #2f333d;
+    color: #d7dae0;
+}
+
+.cv a{
+    color: #C678DD;
+}
+
+.cv a:hover {
+    color: #F8FFFF;
 }
