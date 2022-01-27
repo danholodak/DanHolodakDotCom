@@ -2,3 +2,4 @@
 *.php
 *.ignore
 .DS_Store
+.htaccess
