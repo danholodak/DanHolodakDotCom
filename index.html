@@ -1,42 +1,209 @@
-<html>
-	<head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Dan Holodak</title>
-		<link rel="icon" href="new favicon copy.png">
-        <link rel="stylesheet" href="style.css">
-        <meta property="og:title" content="Dan Holodak">
-        <meta name="description" property="og:description" content="Dan Holodak is a photographer, audio engineer, and film maker.">
-        <meta property="og:image" content="https://danholodak.com/3logos%20copy.png">
-        <meta property="og:url" content="https://danholodak.com">
-        <meta name="twitter:card" content="summary_large_image">
-	</head>
-
-	<body>
-		<center>
-			<img src="3logos copy.png" width="50%"/>
-			<h1> Dan Holodak <br>Photographer - Audio Engineer - Film Maker</h1>
-			<p>dholodakfilm@gmail.com - (518) 859 6723</p>
-            <form>
-                <button type="submit" formaction="/cv">More Info</button>
-            </form>
-            <div class="container">
-                <figure class="homePageCliparts">       
-                    <a href="http://www.danholodak.photos"> <img src="photo camera.png"/></a>
-                        <figcaption>Photography</figcaption>
-                </figure>
-                <figure class="homePageCliparts">
-                    <a href="/film"> <img src="film slate.png"/></a>
-                        <figcaption>Films</figcaption>
-                </figure>
-                <figure class="homePageCliparts">
-                    <a href="/sound"> <img src="microphone.png"/></a>
-                        <figcaption>Sound</figcaption>
-                </figure>
-                <figure class="homePageCliparts">
-                    <a href="/graphic_art"> <img src="paintbrush.png"/></a>
-                        <figcaption>Graphic Art and Other Endeavors</figcaption>
-                </figure>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Dan Holodak - Web Dev</title>
+        <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Dan Holodak</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.png" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                </ul>
             </div>
-        </center>
-	</body>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Dan
+                        <span class="text-primary">Holodak</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Brooklyn Ny · (518) 859-6723 ·
+                        <a href="mailto:name@email.com">DanHolodak@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">I am experienced in creating and developing full stack single-page web applications with intuitive user experience and visually pleasing design.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/danholodak/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/danholodak"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://wellfound.com/u/dan-holodak"><i class="fa-brands fa-angellist"></i></a>
+                        <a href="assets/DanHolodakResume.pdf" class="social-icon" download><i class="fa-solid fa-file-arrow-down"></i></a>
+
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+                        <!-- Awards-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Web Dev Projects</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            Magellan - Website for creating and sharing scavenger hunts usin MERN stack - team lead and frontend flex
+                        </li>
+                        <li>
+                            Flickster - Full stack clone of photo-sharing site Flickr using React/Redux with Ruby on Rails backend
+                        </li>
+                        <li>
+                            Fruit Loops - Music sequencer using vanilla JavaScript DOM manipulation
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+        </div>
+                        <!-- Education-->
+                        <section class="resume-section" id="education">
+                            <div class="resume-section-content">
+                                <h2 class="mb-5">Education</h2>
+                                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                                    <div class="flex-grow-1">
+                                        <h3 class="mb-0">App Academy</h3>
+                                        <div class="subheading mb-3">4 month intensive web development bootcamp</div>
+                                    </div>
+                                    <div class="flex-shrink-0"><span class="text-primary">January 2023 - april 2023</span></div>
+                                </div>
+                                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                                    <div class="flex-grow-1">
+                                        <h3 class="mb-0">Cs50</h3>
+                                        <div class="subheading mb-3">Harvard online intro to Computer Science course</div>
+                                    </div>
+                                    <div class="flex-shrink-0"><span class="text-primary">September 2022 - December 2022</span></div>
+                                </div>
+                                
+                                <div class="d-flex flex-column flex-md-row justify-content-between">
+                                    <div class="flex-grow-1">
+                                        <h3 class="mb-0">Champlain College</h3>
+                                        <div class="subheading mb-3">BFA in Digital Filmmaking and Sonic Arts</div>
+                                    </div>
+                                    <div class="flex-shrink-0"><span class="text-primary">August 2011 - May 2015</span></div>
+                                </div>
+                            </div>
+                        </section>
+                        <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Videographer/Photographer</h3>
+                            <div class="subheading mb-3">Freelance</div>
+                            <p>Working in a freelance capacity shooting and editing video and photography, recording sound for film and live music, and working as a camera assistant or production assistant on film sets.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">June 2015 - Jan 2023</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Rental Associate / Video Expert</h3>
+                            <div class="subheading mb-3">Glazer's Rentals</div>
+                            <p>Creating Rental Orders, Checking and cleaning equipment, Prepping orders for pickup, Talking to clients and offering information about video, audio, photography, and lighting equipment.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Mar 2017 - Mar 2019</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Prep Technician</h3>
+                            <div class="subheading mb-3">Hand Held Films Inc.</div>
+                            <p>Pulling gear based on rental reservations and setting it up for efficient testing procedures, assisting clients with the inspecting and preparing of their camera kits, helping clients troubleshoot through issues </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2016 - Apr 2017</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Production Manager</h3>
+                            <div class="subheading mb-3">All-U inc.</div>
+                            <p>In charge of overseeing production and the filling of custom orders in the sublimation department of the company.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2015 - May 2016</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item">C</li>
+                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Mobile-First, Responsive Design
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Browser Testing & Debugging
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Functional Teams
+                        </li>
+                        <!-- <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Agile Development & Scrum
+                        </li> -->
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>Apart from being a web developer, I love making art, travel, spending time outdoors, and playing music (I play in a band called band Sorry Darling, we're cute and great). I still love photography and try to make time for it, and I also spend some of my free time on filmmaking passion projects like the video series Sunsets.</p>
+                    <p class="lead mb-5">Check out some of my stuff!</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.flickr.com/photos/131624483@N03"><i class="fa-solid fa-camera"></i></a>
+                        <a class="social-icon" href="https://www.instagram.com/wearesorrydarling/"><i class="fa-solid fa-music"></i></a>
+                        <a class="social-icon" href="https://www.listentosunsets.com"><i class="fa-solid fa-clapperboard"></i></a>
+
+                        <a class="social-icon" href="https://www.instagram.com/danwiththeblue/"><i class="fab fa-instagram"></i></a>
+                        <!-- <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a> -->
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
